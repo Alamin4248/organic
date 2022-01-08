@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/1.png" type="image/x-icon">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>ORGANIC | FOOD</title>
+</head>
+<body>
+  <!-- HEADER SECTION -->
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#catagories">Catagories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#shop">Shop</a>
+          </li>  
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 action-menu">
+          <form class="search-form">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+          </form>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-heart"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-cart4 position-relative">
+                <span style="font-size: 12px;" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  0
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </i>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person"></i>
+            </a>
+            <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Login</a></li>
+              <li><a class="dropdown-item" href="#">Register</a></li>
+              
+            </ul>
+          </li>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- SLIDER SECTION -->
+<section class="slider">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="container">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-5 col-md-6 col-sm-12 slider-text">
+              <h2 class="text-sucess">
+                Order <span class="lighten">Online</span>, Save Your <br>
+                <span class="lighten">Time</span>
+              </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum placeat alias assumenda debitis illum eum esse amet necessitatibus expedita!</p>
+              <a href="" class="btn-order-now">Order Now</a>
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12 slider-image">
+              <img src="assets/img/f1.png" class="img-fluid" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-5 col-md-6 col-sm-12 slider-text">
+              <h2 class="text-sucess">
+                Order <span class="lighten">Online</span>, Save Your <br>
+                <span class="lighten">Time</span>
+              </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum placeat alias assumenda debitis illum eum esse amet necessitatibus expedita!</p>
+              <a href="" class="btn-order-now">Order Now <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12 slider-image">
+              <img src="assets/img/f3.png" class="img-fluid" alt="...">
+            </div>
+          </div>
+        </div>   
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+<!-- CATAGORY PRODUCTS -->
+<section class="catagory-products" id="catagories">
+  <div class="container">
+    <div class="section-title text-center py-5">
+      <h2>Catagory Products</h2>
+      <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product33.png" alt="">
+          <h4>Orange</h4>
+          <a href="" class="btn-view-all">View All</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product27.png" alt="">
+          <h4>Vegetables</h4>
+          <a href="" class="btn-view-all">View All</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product28.png" alt="">
+          <h4>Brocoli</h4>
+          <a href="" class="btn-view-all">View All</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product29.png" alt="">
+          <h4>Maize</h4>
+          <a href="" class="btn-view-all">View All</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row py-4">
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product30.png" alt="">
+          <h4>Apple</h4>
+          <a href="" class="btn-view-all">View All</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product32.png" alt="">
+          <h4>Guava</h4>
+          <a href="" class="btn-view-all">View All</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product23.png" alt="">
+          <h4>Onion</h4>
+          <a href="" class="btn-view-all">View All</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product1.png" alt="">
+          <h4>Rice</h4>
+          <a href="" class="btn-view-all">View All</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- BANNER SECTION -->
+<section class="banner">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="item d-flex">
+          <div class="text">
+            <p class="red">Fresh Food</p>
+            <h2>Healthy Food</h2>
+            <p>Get 20% Off Selected Products</p>
+            <a href="" class="order-now">Order Now</a>
+          </div>
+          <img src="assets/img/product/product34.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="item d-flex">
+          <div class="text">
+            <p class="red">Fresh Food</p>
+            <h2>Healthy Fruits</h2>
+            <p>Get 20% Off Selected Products</p>
+            <a href="" class="order-now">Order Now</a>
+          </div>
+          <img src="assets/img/product/product33.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- LATEST PRODUCTS -->
+<section class="latest-products" id="shop">
+  <div class="container py-5">
+    <h2>Latest Products</h2>
+    <hr>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product25.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Fruit(1kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-200.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product1.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Rice(10kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-700.80</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product2.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Egg(3Box)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-396.63</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product4.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Onion(5kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-439.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row py-3">
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product20.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Tomato(3kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-130.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product21.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Rice(5kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-699.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product22.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Carrot(2kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-146.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product30.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Apple(2kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-245.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row py-3">
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product24.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Papeiya(3kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-60.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product26.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic potato(4kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-160.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product31.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Banna(3kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-99.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="assets/img/product/product32.png" alt="">
+            <h2 class="product-name">
+              <a href="">Organic Guava(3kg)</a>
+            </h2>
+            <div class="rating">
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+            </div>
+            <h5>TK-120.00</h5>
+            <div class="btn d-flex justify-content-between align-items-center">
+              <a href="" class="add-cart-btn">
+                <i class="bi bi-cart4"></i> Add To Cart</a>
+              <a href="" class="add-favourite text-success">
+              <i class="bi bi-heart"></i>
+              </a>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PROMO BANNER SECTION -->
+<section class="promo-banner position-relative my-5 py-5">
+  <div class="">
+    <img src="assets/img/hero/bg1.png" alt="" class="img-fluid">
+    <div class="promo">
+    <h3 class="promo-title"><span style="color: #f39c12">Fast Order</span> Fast Delivery</h3>
+    <h4 class="promo-text">Save Up To 20% Discount</h4>
+    </div>
+  </div>
+</section>
+<!-- FOOTER SECTION -->
+<section class="footer py-5">
+  <div class="container">
+    <hr>
+    <div class="row mt-3">
+      <div class="col-lg-4">
+        <img src="assets/img/logo.png" alt="">
+        <h4 class="mt-3">Get The App</h4>
+        <p>Broccoli App Is Now On Google Play & App Store. Get It Now! </p>
+        <div class="d-flex">
+          <img src="assets/img/store1.png" alt="">
+          <img src="assets/img/store2.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <h4>Information</h4>
+        <ul class="footer-list">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Shipping Policy</a></li>
+          <li><a href="">Tearms & Conditions</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2">
+        <h4>User Area</h4>
+        <ul class="footer-list">
+          <li><a href="">My Account</a></li>
+          <li><a href="">My Cart</a></li>
+          <li><a href="">Ligin</a></li>
+          <li><a href="">Check In</a></li>
+          <li><a href="">Check Out</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h4>Contact Us</h4>
+        <p>+88 01756-450154</p>
+        <p>Jashore, Dkaka-Bangladesh</p>
+        <p>alaminhossen@gmail.com</p>
+      </div>
+    </div>
+    <hr>
+    <div class="copyright-text text-center">
+      Copyright &copy; 2021. Powered By <span class="text-dark fw-bold">AL</span> <span class="fw-bold text-danger">AMIN</span>
+    </div>
+  </div>
+</section>
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
